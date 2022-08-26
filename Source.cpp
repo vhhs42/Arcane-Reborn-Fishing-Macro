@@ -86,7 +86,7 @@ void appLoop()
 				{
 					return;
 				}
-				if (abs(red - green) > 5 or abs(green - blue) > 5 or red < 150 or green < 150 or blue < 150)
+				if (abs(red - green) > 5 || abs(green - blue) > 5 || red < 150 or green < 150 || blue < 150)
 				{
 					continue;
 				}
