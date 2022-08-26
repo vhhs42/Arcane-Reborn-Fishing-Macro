@@ -64,7 +64,6 @@ void appLoop()
 		{
 			Sleep(20);
 			timer = timer + 60;
-			std::cout << timer << std::endl;
 			// If no fishing cue has come up for some time, we recast the line.
 			if (timer >= 30000)
 			{
