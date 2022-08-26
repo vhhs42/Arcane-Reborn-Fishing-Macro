@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include <vector>
-#include <fstream>
+//#include <fstream>
 
 // Absolute function because I didn't feel like including a math library.
 int abs(int x)
